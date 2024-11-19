@@ -1,0 +1,18 @@
+research_task:
+  description: >
+    Conduza uma pesquisa detalhada sobre {topic}.
+    Certifique-se de encontrar qualquer informação interessante e relevante,
+    considerando que o ano atual é 2024.
+  expected_output: >
+    Uma lista com 10 tópicos em formato de bullet points contendo as informações
+    mais relevantes sobre {topic}.
+  agent: researcher
+
+reporting_task:
+  description: >
+    Revise o contexto recebido e expanda cada tópico em uma seção completa de um relatório.
+    Certifique-se de que o relatório seja detalhado e contenha todas as informações relevantes.
+  expected_output: >
+    Um relatório completo com os principais tópicos, cada um com uma seção detalhada de informações.
+    Formate como markdown sem '```'.
+  agent: reporting_analyst
